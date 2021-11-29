@@ -1,0 +1,76 @@
+@import "../template/mixins";
+@import "../template/settings";
+@import url(../../lib/font/tungsten/tungsten.css);
+
+$main_start: #ffc200;
+$main_end: #ff00ff;
+
+$warn_start: #7e00bf;
+$warn_end: #ff15b1;
+
+$accent_start: #214ac4;
+$accent_end: #22b5ff;
+
+$aux_start: #7e00bf;
+$aux_end: #ff15b1;
+
+$mainFont: "Tungsten";
+$mainColor: #fff;
+$headingFont: "Tungsten";
+$headingColor: #fff;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #000;
+$linkColor: $accent_start;
+$linkColorHover: $accent_end;
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+section.has-dark-background {
+  &,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff;
+  }
+}
+
+.reveal {
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: $heading4Size;
+    background: linear-gradient(to left, $main_start, $main_end);
+    padding-top: 10px;
+    padding-bottom: 0%;
+
+    img {
+      height: 45px;
+      width: auto;
+    }
+    .author {
+      padding-right: 1vw;
+    }
+  }
+
+  h1 {
+    background: linear-gradient(to left, $warn_start, $warn_end) repeat-x 0
+      1.16em;
+  }
+
+  h2 {
+    background: linear-gradient(to left, $aux_start, $aux_end) repeat-x 0 1.16em;
+  }
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
