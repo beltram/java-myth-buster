@@ -1,6 +1,6 @@
 ## context
 
-* EPI new payment platform for europe
-* Demonstrate that Java can handle performances
-* p99 < 200 ms & support 10k req/s
-* ++ schemas archi
+* POC EPI(🇪🇺 payment initiative) in Java
+* for Transactis (Société Générale + Banque Postale) and maybe many others
+* respond in < 200ms
+* support 10k req/s
