@@ -9,18 +9,14 @@
 
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/sopra-banking.css">
-
-    <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <!-- Printing and PDF exports -->
     <script>
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
         link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
-
     </script>
 </head>
 
@@ -34,33 +30,35 @@
     <div class="slides">
         <section data-markdown># Java myth buster</section>
         <section>
-            <section data-markdown># intro</section>
+            <section data-markdown># intro (BMA)</section>
             <section data-markdown="slides/intro.md"></section>
         </section>
         <section>
-            <section data-markdown># context</section>
+            <section data-markdown># context (BMA)</section>
             <section data-markdown="slides/context/intro.md"></section>
         </section>
         <section>
-            <section data-markdown># Java & SBCP</section>
+            <section data-markdown># stack (JNT)</section>
             <section data-markdown="slides/sbcp/intro.md"></section>
         </section>
         <section>
-            <section data-markdown># optimizations</section>
-            <section data-markdown="slides/optimizations/intro.md"></section>
+            <section data-markdown># tuning (BMA)</section>
+            <section data-markdown="slides/tuning/intro.md"></section>
         </section>
         <section>
-            <section data-markdown># results</section>
+            <section data-markdown># reactive (JNT)</section>
+            <section data-markdown="slides/reactive/intro.md"></section>
+        </section>
+        <section>
+            <section data-markdown># results (JNY + BMA)</section>
             <section data-markdown="slides/results/intro.md"></section>
         </section>
         <section>
-            <section data-markdown># outro</section>
+            <section data-markdown># outro (JNT)</section>
             <section data-markdown="slides/outro.md"></section>
         </section>
     </div>
-
 </div>
-
 
 <script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
@@ -81,12 +79,7 @@
             }
         ]
     });
-
-    Reveal.configure({
-        slideNumber: true
-    });
-
+    Reveal.configure({slideNumber: true});
 </script>
 </body>
-
 </html>
