@@ -1,4 +1,4 @@
-## use connection pooling
+## redis
 
 * do not use default java Serializable (json with kotlinx.serialization is a good alternative)
 * activate connection keep-alive (not by default) 'socketOptions(SocketOptions.builder().keepAlive(true).build())'
