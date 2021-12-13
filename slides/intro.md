@@ -1,8 +1,7 @@
-## intro
+## agenda
 
-1. We had to POC a card payment authorization system responding in < 200ms...
-2. using Java & SBCP helpers...
-3. and after some optimizations...
-4. we got these results
-
-(Démarrer la démo)
+1. Context
+2. our Java stack
+3. some small tunings
+4. why Reactive programming
+5. results
