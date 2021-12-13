@@ -1,4 +1,4 @@
-## tuning GC
+## GC tuning
 
 * [for latency](https://docs.oracle.com/javase/9/gctuning/garbage-first-garbage-collector-tuning.htm#JSGCT-GUID-4914A8D4-DE41-4250-B68E-816B58D4E278)
   * -XX:MaxGCPauseMillis=10 (defaults to 200ms) 

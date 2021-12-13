@@ -1,7 +1,7 @@
-## agenda
+## Agenda
 
 1. Context
-2. our Java stack
-3. some small tunings
-4. why Reactive programming
-5. results
+2. Our Java stack
+3. Some small tunings
+4. Why Reactive is a no-brainer
+5. Results

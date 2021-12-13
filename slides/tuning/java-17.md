@@ -1,4 +1,4 @@
-## use Java 17
+## Use latest LTS
 
 <img src="lib/images/java-17-gc.jpg" style="height: 40vh"/>  
 

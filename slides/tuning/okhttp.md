@@ -1,4 +1,4 @@
-## okhttp tuning
+## OkHttp tuning
 
 * use [kotlinx.serialization converter](https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter)
 * reuse connections 'ConnectionPool(100, 300, SECONDS)'

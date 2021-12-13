@@ -1,4 +1,4 @@
-## context
+## Goals
 
 * EPI new payment platform for europe
 * Demonstrate that Java can handle performances

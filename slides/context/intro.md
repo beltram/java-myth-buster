@@ -1,4 +1,4 @@
-## context
+## Context
 
 * POC EPI(🇪🇺 payment initiative) in Java
 * for Transactis (Société Générale + Banque Postale) and maybe many others

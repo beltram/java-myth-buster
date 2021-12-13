@@ -1,4 +1,4 @@
-## use kotlinx.serialization
+## Use kotlinx.serialization
 
 * generates AOT bindings ; does not require reflection like Jackson
 * faster for json, slower for xml  

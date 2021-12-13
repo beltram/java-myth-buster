@@ -1,4 +1,4 @@
-## logback async
+## Logback async
 
 * buffer logs
 

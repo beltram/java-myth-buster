@@ -1,4 +1,4 @@
-## r2dbc
+## R2DBC
 
 * now faster than jpa
 * use connection pooling

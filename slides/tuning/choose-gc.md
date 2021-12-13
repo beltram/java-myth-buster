@@ -1,4 +1,4 @@
-## pick the right GC
+## Pick the right GC
 
 * throughput: G1
 * latency: Shenandoah, ZGC
